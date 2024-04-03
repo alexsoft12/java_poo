@@ -45,19 +45,20 @@ public class Main {
         }*/
 
         /* =========== POLIMORFISMO ========== */
-/*        Employee newEmployee = new Employee(1, "John Doe", "12345678A", 1000, "IT");
-
+        System.out.println("=========== POLIMORFISMO ==========");
+        Employee newEmployee = new Employee(1, "John Doe", "12345678A", 1000, "IT");
+        System.out.println(newEmployee.evaluatePerformance());
         Developer newDeveloper = new Developer(1, "Jane Doe", "87654321B", 1300, "HR", new ArrayList<String>() {{
             add("Java");
             add("JavaScript");
             add("PHP");
         }});
 
-        //newEmployee  = newDeveloper;
+        newEmployee  = newDeveloper;
         System.out.println(newDeveloper.getLenguajes().size());
         System.out.println(newEmployee.getName());
         System.out.println(newEmployee.evaluatePerformance());
-        System.out.println("**********");*/
+        System.out.println("**********");
 
 
         // lista de empleados gerentes
